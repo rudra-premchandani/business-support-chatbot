@@ -1,0 +1,25 @@
+{
+  "name": "final-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Chat.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node Chat.js",
+    "start": "node Chat.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "cheerio": "^1.2.0",
+    "express": "^5.2.1",
+    "mysql2": "^3.22.3",
+    "next": "^16.2.4",
+    "nodemailer": "^8.0.7",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  }
+}
